@@ -175,7 +175,7 @@ export default function Kanban() {
           }}
         >
           <Plus size={16} />
-          Add New Status
+          <span className="max-md:hidden">Add New Status</span>
         </button>
       </div>
       <div className="overflow-auto">
